@@ -1,0 +1,15 @@
+First part
+
+Encountered VK_ERROR_INCOMPATIBLE_DRIVER:
+If using MacOS with the latest MoltenVK sdk, you may get VK_ERROR_INCOMPATIBLE_DRIVER returned from vkCreateInstance. According to the Getting Start Notes. Beginning with the 1.3.216 Vulkan SDK, the VK_KHR_PORTABILITY_subset extension is mandatory.
+
+To get over this error, first add the VK_INSTANCE_CREATE_ENUMERATE_PORTABILITY_BIT_KHR bit to VkInstanceCreateInfo struct's flags, then add VK_KHR_PORTABILITY_ENUMERATION_EXTENSION_NAME to instance enabled extension list.
+
+        createInfo.flags |= VK_INSTANCE_CREATE_ENUMERATE_PORTABILITY_BIT_KHR;
+
+
+extensions.push_back(VK_KHR_PORTABILITY_ENUMERATION_EXTENSION_NAME);
+
+
+
+clang++ -std=c++17 28_model_loading.cpp -I/opt/homebrew/Cellar/glfw/3.3.8/include -L/opt/homebrew/Cellar/glfw/3.3.8/lib -lglfw -I/opt/homebrew/Cellar/glm/0.9.9.8/include -I/usr/local/include -L/usr/local/lib -lvulkan

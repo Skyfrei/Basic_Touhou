@@ -1,0 +1,2 @@
+/Users/klavio/VulkanSDK/1.3.250.0/macOS/bin/glslc ../VulkanEngine/shaders/26_shader_depth.vert -o ../VulkanEngine/shaders/vert.spv
+/Users/klavio/VulkanSDK/1.3.250.0/macOS/bin/glslc ../VulkanEngine/shaders/26_shader_depth.frag -o ../VulkanEngine/shaders/frag.spv
