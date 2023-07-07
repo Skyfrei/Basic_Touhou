@@ -1,0 +1,1 @@
+clang++ -std=c++17 ../VulkanEngine/main.cpp -I/opt/homebrew/Cellar/glfw/3.3.8/include -L/opt/homebrew/Cellar/glfw/3.3.8/lib -lglfw -I/opt/homebrew/Cellar/glm/0.9.9.8/include -I/usr/local/include -L/usr/local/lib  -lvulkan -w -o ../final.out

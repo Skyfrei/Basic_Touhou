@@ -1,0 +1,156 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXFileReference section */
+		7D7B43A82A3F9897005AAAE9 /* cmake.check_cache */ = {isa = PBXFileReference; lastKnownFileType = text; path = cmake.check_cache; sourceTree = "<group>"; };
+		7D7B43A92A3F9897005AAAE9 /* CMakeConfigureLog.yaml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = CMakeConfigureLog.yaml; sourceTree = "<group>"; };
+		7D7B43AA2A3F9897005AAAE9 /* Makefile.cmake */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.cmake; sourceTree = "<group>"; };
+		7D7B43AB2A3F9897005AAAE9 /* pkgRedirects */ = {isa = PBXFileReference; lastKnownFileType = folder; path = pkgRedirects; sourceTree = "<group>"; };
+		7D7B43AC2A3F9897005AAAE9 /* Final.dir */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Final.dir; sourceTree = "<group>"; };
+		7D7B43AD2A3F9897005AAAE9 /* progress.marks */ = {isa = PBXFileReference; lastKnownFileType = text; path = progress.marks; sourceTree = "<group>"; };
+		7D7B43AE2A3F9897005AAAE9 /* TargetDirectories.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = TargetDirectories.txt; sourceTree = "<group>"; };
+		7D7B43AF2A3F9897005AAAE9 /* CMakeDirectoryInformation.cmake */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeDirectoryInformation.cmake; sourceTree = "<group>"; };
+		7D7B43B02A3F9897005AAAE9 /* 3.26.3 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 3.26.3; sourceTree = "<group>"; };
+		7D7B43B12A3F9897005AAAE9 /* Makefile2 */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile2; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		7D7B43A22A3F9897005AAAE9 = {
+			isa = PBXGroup;
+			children = (
+				7D7B43A82A3F9897005AAAE9 /* cmake.check_cache */,
+				7D7B43A92A3F9897005AAAE9 /* CMakeConfigureLog.yaml */,
+				7D7B43AA2A3F9897005AAAE9 /* Makefile.cmake */,
+				7D7B43AB2A3F9897005AAAE9 /* pkgRedirects */,
+				7D7B43AC2A3F9897005AAAE9 /* Final.dir */,
+				7D7B43AD2A3F9897005AAAE9 /* progress.marks */,
+				7D7B43AE2A3F9897005AAAE9 /* TargetDirectories.txt */,
+				7D7B43AF2A3F9897005AAAE9 /* CMakeDirectoryInformation.cmake */,
+				7D7B43B02A3F9897005AAAE9 /* 3.26.3 */,
+				7D7B43B12A3F9897005AAAE9 /* Makefile2 */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		7D7B43A72A3F9897005AAAE9 /* CMakeFiles */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 7D7B43B22A3F9897005AAAE9 /* Build configuration list for PBXLegacyTarget "CMakeFiles" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = "/Users/klavio/Important/Real Time Comp Graphics/Final project/Game/CMakeFiles";
+			dependencies = (
+			);
+			name = CMakeFiles;
+			passBuildSettingsInEnvironment = 1;
+			productName = CMakeFiles;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		7D7B43A32A3F9897005AAAE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+			};
+			buildConfigurationList = 7D7B43A62A3F9897005AAAE9 /* Build configuration list for PBXProject "CMakeFiles" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7D7B43A22A3F9897005AAAE9;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D7B43A72A3F9897005AAAE9 /* CMakeFiles */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		7D7B43A42A3F9897005AAAE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		7D7B43A52A3F9897005AAAE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		7D7B43B32A3F9897005AAAE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = CMakeFiles;
+			};
+			name = Debug;
+		};
+		7D7B43B42A3F9897005AAAE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = CMakeFiles;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D7B43A62A3F9897005AAAE9 /* Build configuration list for PBXProject "CMakeFiles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D7B43A42A3F9897005AAAE9 /* Debug */,
+				7D7B43A52A3F9897005AAAE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D7B43B22A3F9897005AAAE9 /* Build configuration list for PBXLegacyTarget "CMakeFiles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D7B43B32A3F9897005AAAE9 /* Debug */,
+				7D7B43B42A3F9897005AAAE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D7B43A32A3F9897005AAAE9 /* Project object */;
+}

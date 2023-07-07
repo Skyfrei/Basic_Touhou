@@ -1,0 +1,3 @@
+/Users/klavio/Important/Real Time Comp Graphics/Final project/Game/CMakeFiles/Final.dir
+/Users/klavio/Important/Real Time Comp Graphics/Final project/Game/CMakeFiles/edit_cache.dir
+/Users/klavio/Important/Real Time Comp Graphics/Final project/Game/CMakeFiles/rebuild_cache.dir
